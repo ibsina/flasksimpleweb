@@ -1,8 +1,8 @@
-version: v1 
+version: v1
 
 id:
   org: 1c2ff286-014e-48f9-97bd-9b39dc05f699
-  app: b5f86cff-d761-4ba2-a117-75185accd597
+  app: 898b5bc2-c7c8-453c-aa51-fcdf00b4d507
 
 # Optional parameters.
 scanners:
@@ -15,7 +15,7 @@ languages:
   - python
 
 dast:
-  url: http://dev-app1.fortiseahk.com:44444/
+  url: http://172.19.8.2:8001/
   fortipentest_scanner: true #true|false
   full_scan: false
 
