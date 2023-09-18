@@ -8,7 +8,7 @@ id:
 scanners:
    - sast
    - sca
-   - secret
+#   - secret
 #   - iac
 #   - container
    - dast
@@ -25,7 +25,7 @@ dast:
 
 # Language scanners run sequentially by default. Can be configured to run in parallel.
 resource:
-   serial_scan: false #true|false
+   serial_scan: trus #true|false
 
 # CI/CD pipeline fails when risk rating(range 0-9) exceeds the configured value.
 # fail_pipeline:
