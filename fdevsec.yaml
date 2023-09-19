@@ -8,7 +8,7 @@ id:
 scanners:
    - sast
    - sca
-#   - secret
+   - secret
 #   - iac
 #   - container
    - dast
