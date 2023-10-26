@@ -2,7 +2,7 @@ version: v1
 
 id:
   org: c0e2bb95-6bfa-4f9d-909c-78fcbfd8a774
-  app: affbb4c5-6e7e-4331-913d-a9614a33276b
+  app: 62e03836-cabf-4f78-964d-54758b1d635a
 
 # If below settings are not configured, scans will be performed for all supported scanners.
 scanners:
